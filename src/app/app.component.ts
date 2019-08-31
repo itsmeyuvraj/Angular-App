@@ -6,5 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'first-app';
+  title = 'Assignment 1';
+  ServerName = "Apollo";
+  ServerPid = 1234;
+  ServerStatus = "Offline";
+
+
+
+  onclick()
+  {
+    this.ServerStatus="Online";
+  }
+
+
 }
